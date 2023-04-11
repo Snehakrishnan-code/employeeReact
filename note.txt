@@ -1,0 +1,22 @@
+install react bootstrap
+
+select theme from bootswatch
+
+- font awesome link should be given in the body part of index.html file in public folder
+
+<Link to path> from react router dome---- for redirection
+
+
+splice() --- remove elements from an array
+
+indexof---- to find index  of an object in an array.  index if found to pass it into splice.
+
+To delete 
+-----------
+onclick event in button for delete
+onclick--- function has to work   -- handleDelete(id)-- get the id using splice function
+-- define function
+map ids of all elements in the obj
+then. use indexof and pass the id of searching element
+delete might not reflect in the frontend
+useNavigate hook-- to reflect changes in data in the component
